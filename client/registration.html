@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <form method="post" action="/homePage" onsubmit="return signUpValidation()">
+            <p>Username</p>
+            <input name="userName" id="userName" type="text" placeholder="Enter a username" value="">
+            <p>Email address</p>
+            <input name="email" id="email" type="text" placeholder="Enter your email address">
+            <p>Password</p>
+            <input name="password" id="password" type="text" placeholder="Enter your password">
+            <p>Confirm password</p>
+            <input name="confirmPassword" id="confirmPassword" type="text" placeholder="Enter your password again">
+            <br>
+            <br>
+            <input type="submit" value="Sign Up"> 
+        </form>
+    </div>
+
+    <script src="registration.js"></script>
+</body>
+</html>
